@@ -1,7 +1,7 @@
 from twilio.rest import Client
 
-account_sid = 'ACc760a08660238c4878f78a179a0ad417'  #this is your account SID
-auth_token = '45b119932c2bd1380cc7bc262497248e'     #this is your own auth_token
+account_sid = 'Your account sid'  #this is your account SID
+auth_token = 'your auth token'     #this is your own auth_token
 client = Client(account_sid, auth_token)
 
 message = """Subject: Second COVID-19 Vaccination Reminder
